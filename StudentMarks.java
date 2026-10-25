@@ -17,5 +17,9 @@ for (Map.Entry<String, Integer> entry : students.entrySet()) {
 students.put("Ahmed", 90);
 System.out.println("\nUpdated Marks:");
 System.out.println("Ahmed's updated marks: " + students.get("Ahmed"));
+
+String studentName = "Sara";
+System.out.println("\nMarks of a Specific Student:");
+System.out.println(studentName + "'s marks: " + students.get(studentName));
     }
 }
