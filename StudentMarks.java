@@ -1,4 +1,5 @@
 import java.util.HashMap;
+import java.util.Map;
 
 public class StudentMarks {
     public static void main(String[] args) {
@@ -8,5 +9,11 @@ public class StudentMarks {
         students.put("Asad", 92);
         students.put("Ali", 88);
         students.put("Moiz", 75);
+
+        System.out.println("All Student Records:");
+for (Map.Entry<String, Integer> entry : students.entrySet()) {
+    System.out.println(entry.getKey() + " : " + entry.getValue());
+}
+
     }
 }
