@@ -21,5 +21,7 @@ System.out.println("Ahmed's updated marks: " + students.get("Ahmed"));
 String studentName = "Sara";
 System.out.println("\nMarks of a Specific Student:");
 System.out.println(studentName + "'s marks: " + students.get(studentName));
+
+System.out.println("\nTotal Number of Students: " + students.size());
     }
 }
